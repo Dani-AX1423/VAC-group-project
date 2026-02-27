@@ -1,0 +1,178 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there",
+        "Hi there",
+        "Hello bot"
+      ],
+      "responses": [
+        "Hello! Welcome to LICET Campus Navigation.",
+        "Hi! How can I help you navigate LICET today?"
+      ]
+    },
+
+    {
+      "tag": "main_gate",
+      "patterns": [
+        "Where is the main gate",
+        "How to reach main gate",
+        "Directions to entrance",
+        "College entrance location",
+        "How do I exit campus"
+      ],
+      "responses": [
+        "The main gate is the primary entrance and exit of the LICET campus inside Loyola grounds."
+      ]
+    },
+
+    {
+      "tag": "library_location",
+      "patterns": [
+        "Where is the library",
+        "Library location",
+        "How to reach library",
+        "Directions to library",
+        "Is library in G block",
+        "Which floor is library"
+      ],
+      "responses": [
+        "The library is located in G Block on the 1st and 2nd floors."
+      ]
+    },
+
+    {
+      "tag": "c_block_info",
+      "patterns": [
+        "Where is C block",
+        "What is C block",
+        "Central block location",
+        "How to reach C block",
+        "Is C block center"
+      ],
+      "responses": [
+        "C Block is the central hub of the academic building with connecting corridors to other blocks."
+      ]
+    },
+
+    {
+      "tag": "a_block_info",
+      "patterns": [
+        "Where is A block",
+        "CSE A block location",
+        "How to reach A block",
+        "A block labs",
+        "Is chemistry lab in A block"
+      ],
+      "responses": [
+        "A Block contains CSE-A department classrooms, computer labs, and the chemistry lab on the 3rd floor."
+      ]
+    },
+
+    {
+      "tag": "h_block_info",
+      "patterns": [
+        "Where is H block",
+        "Physics lab location",
+        "Is physics lab in H block",
+        "H block labs",
+        "How to reach H block"
+      ],
+      "responses": [
+        "H Block contains computer labs and the physics lab on the 3rd floor."
+      ]
+    },
+
+    {
+      "tag": "g_block_info",
+      "patterns": [
+        "Where is G block",
+        "AIDS classrooms location",
+        "Which floor is AIDS department",
+        "G block floors"
+      ],
+      "responses": [
+        "G Block houses the library on the 1st and 2nd floors and AIDS classrooms on the 3rd floor."
+      ]
+    },
+
+    {
+      "tag": "department_navigation",
+      "patterns": [
+        "Where is CSE department",
+        "IT department location",
+        "Where is ECE department",
+        "How to reach Mechanical department",
+        "Where is EEE department",
+        "Directions to department"
+      ],
+      "responses": [
+        "Departments are located in their respective academic blocks connected through C Block. Please specify the department for detailed guidance."
+      ]
+    },
+
+    {
+      "tag": "hostel_location",
+      "patterns": [
+        "Where is hostel",
+        "How to reach hostel",
+        "Hostel directions",
+        "Is hostel inside campus",
+        "Hostel entrance"
+      ],
+      "responses": [
+        "The hostel is located behind the academic buildings within the Loyola campus area. Access is through the main gate."
+      ]
+    },
+
+    {
+      "tag": "lab_location",
+      "patterns": [
+        "Where are computer labs",
+        "Physics lab location",
+        "Chemistry lab location",
+        "Lab directions",
+        "Which block has labs"
+      ],
+      "responses": [
+        "Computer labs are available in A and H Blocks. The Chemistry lab is in A Block 3rd floor and the Physics lab is in H Block 3rd floor."
+      ]
+    },
+
+    {
+      "tag": "floor_information",
+      "patterns": [
+        "How many floors are there",
+        "Is there third floor",
+        "Which floor is library",
+        "Which floor is lab",
+        "Floor details"
+      ],
+      "responses": [
+        "The academic building has multiple floors, with C Block acting as the central connection across all floors."
+      ]
+    },
+
+    {
+      "tag": "exit",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Feel free to use the campus navigation bot anytime."
+      ]
+    }
+
+  ]
+}
